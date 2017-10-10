@@ -1,5 +1,5 @@
 //
-//  AppDelegate.swift
+//  ViewController.swift
 //  ON Bosse
 //
 //  Created by Arnaud Miguet on 10.10.17.
@@ -8,8 +8,7 @@
 
 import Cocoa
 
-@NSApplicationMain
-class AppDelegate: NSObject, NSApplicationDelegate {
+class MainViewController: NSViewController {
     
 }
 
