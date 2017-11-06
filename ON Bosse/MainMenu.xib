@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="13196" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13196"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner" customClass="NSApplication">
+            <connections>
+                <outlet property="delegate" destination="vgZ-e5-vGZ" id="gsZ-Nt-mqW"/>
+            </connections>
+        </customObject>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customObject id="vgZ-e5-vGZ" customClass="AppDelegate" customModule="ON_Bosse" customModuleProvider="target"/>
+        <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
+        <menu id="2Z6-qd-10C">
+            <items>
+                <menuItem title="Quit" id="8Ge-h7-8ji">
+                    <modifierMask key="keyEquivalentModifierMask"/>
+                    <connections>
+                        <action selector="quitClicked:" target="xb4-xM-hK1" id="e8F-HR-lPm"/>
+                    </connections>
+                </menuItem>
+            </items>
+            <point key="canvasLocation" x="-5.5" y="165.5"/>
+        </menu>
+        <customObject id="xb4-xM-hK1" customClass="StatusMenuController" customModule="ON_Bosse" customModuleProvider="target">
+            <connections>
+                <outlet property="statusMenu" destination="2Z6-qd-10C" id="TqU-hg-aUD"/>
+            </connections>
+        </customObject>
+    </objects>
+</document>

@@ -10,6 +10,8 @@
 		513DA4201F910950007DC03D /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DA41F1F910950007DC03D /* Team.swift */; };
 		513DA4221F9109C9007DC03D /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DA4211F9109C9007DC03D /* Case.swift */; };
 		51503C781FB07FBD008BE61B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51503C771FB07FBD008BE61B /* User.swift */; };
+		51503C7A1FB082A4008BE61B /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51503C791FB082A4008BE61B /* MainMenu.xib */; };
+		51B0F0D41FB08A2F001B0517 /* StatusMenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B0F0D31FB08A2F001B0517 /* StatusMenuController.swift */; };
 		51D72B8C1F8CF28F0002274B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D72B8B1F8CF28F0002274B /* AppDelegate.swift */; };
 		51D72B8E1F8CF28F0002274B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D72B8D1F8CF28F0002274B /* MainViewController.swift */; };
 		51D72B901F8CF28F0002274B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D72B8F1F8CF28F0002274B /* Assets.xcassets */; };
@@ -42,6 +44,8 @@
 		513DA41F1F910950007DC03D /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		513DA4211F9109C9007DC03D /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
 		51503C771FB07FBD008BE61B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		51503C791FB082A4008BE61B /* MainMenu.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+		51B0F0D31FB08A2F001B0517 /* StatusMenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusMenuController.swift; sourceTree = "<group>"; };
 		51D72B881F8CF28F0002274B /* ON Bosse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ON Bosse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D72B8B1F8CF28F0002274B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51D72B8D1F8CF28F0002274B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -117,6 +121,7 @@
 				51D72B911F8CF28F0002274B /* Main.storyboard */,
 				51D72B941F8CF28F0002274B /* Info.plist */,
 				51D72B951F8CF28F0002274B /* ON_Bosse.entitlements */,
+				51503C791FB082A4008BE61B /* MainMenu.xib */,
 			);
 			path = "ON Bosse";
 			sourceTree = "<group>";
@@ -151,6 +156,7 @@
 			isa = PBXGroup;
 			children = (
 				51D72B8D1F8CF28F0002274B /* MainViewController.swift */,
+				51B0F0D31FB08A2F001B0517 /* StatusMenuController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -283,6 +289,7 @@
 			files = (
 				51D72B901F8CF28F0002274B /* Assets.xcassets in Resources */,
 				51D72B931F8CF28F0002274B /* Main.storyboard in Resources */,
+				51503C7A1FB082A4008BE61B /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,6 +320,7 @@
 				51F0BD4A1F8D08A8001B817D /* Person.swift in Sources */,
 				51503C781FB07FBD008BE61B /* User.swift in Sources */,
 				51F0BD4C1F8D0955001B817D /* Employee.swift in Sources */,
+				51B0F0D41FB08A2F001B0517 /* StatusMenuController.swift in Sources */,
 				513DA4221F9109C9007DC03D /* Case.swift in Sources */,
 				51F0BD441F8D0747001B817D /* Constants.swift in Sources */,
 			);
