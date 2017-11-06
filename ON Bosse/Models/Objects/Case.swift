@@ -10,19 +10,16 @@ import Cocoa
 
 class Case: NSObject {
     var name: String
-    var state: CaseState
+    var states: [Int: String]
+    var state: Int
     var id: Int
     
-    init(name: String, state: CaseState = .Inactive, id: Int = 0) {
+    init(name: String, state: Int = -1, states: [Int: String] = [:], id: Int = 0) {
         self.name = name
         self.state = state
+        self.states = states
         self.id = id
         super.init()
     }
 }
 
-
-enum CaseState {
-    case Active
-    case Inactive
-}

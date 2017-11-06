@@ -8,15 +8,15 @@
 
 import Cocoa
 
-class Employee: Person {
+class Employee: User {
     var hours_balance: Double
     var is_manager: Bool
     var salary: Double
     
-    init(name: String, surname: String, hours_balance: Double = 0, nickname: String = "", id: Int = 0, is_manager: Bool = false, salary: Double) {
+    init(name: String, surname: String, password: String, hours_balance: Double = 0, nickname: String = "", id: Int = 0, is_manager: Bool = false, salary: Double) {
         self.hours_balance = hours_balance
         self.is_manager = is_manager
         self.salary = salary
-        super.init(name: name, surname: surname, nickname: nickname, id: id)
+        super.init(name: name, surname: surname, nickname: nickname, id: id, password: password)
     }
 }

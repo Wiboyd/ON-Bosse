@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		513DA4201F910950007DC03D /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DA41F1F910950007DC03D /* Team.swift */; };
 		513DA4221F9109C9007DC03D /* Case.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513DA4211F9109C9007DC03D /* Case.swift */; };
+		51503C781FB07FBD008BE61B /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51503C771FB07FBD008BE61B /* User.swift */; };
 		51D72B8C1F8CF28F0002274B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D72B8B1F8CF28F0002274B /* AppDelegate.swift */; };
 		51D72B8E1F8CF28F0002274B /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51D72B8D1F8CF28F0002274B /* MainViewController.swift */; };
 		51D72B901F8CF28F0002274B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 51D72B8F1F8CF28F0002274B /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 /* Begin PBXFileReference section */
 		513DA41F1F910950007DC03D /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		513DA4211F9109C9007DC03D /* Case.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Case.swift; sourceTree = "<group>"; };
+		51503C771FB07FBD008BE61B /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		51D72B881F8CF28F0002274B /* ON Bosse.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ON Bosse.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D72B8B1F8CF28F0002274B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51D72B8D1F8CF28F0002274B /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 			isa = PBXGroup;
 			children = (
 				51F0BD491F8D08A8001B817D /* Person.swift */,
+				51503C771FB07FBD008BE61B /* User.swift */,
 				51F0BD4B1F8D0955001B817D /* Employee.swift */,
 				513DA41F1F910950007DC03D /* Team.swift */,
 				513DA4211F9109C9007DC03D /* Case.swift */,
@@ -308,6 +311,7 @@
 				51D72B8E1F8CF28F0002274B /* MainViewController.swift in Sources */,
 				51D72B8C1F8CF28F0002274B /* AppDelegate.swift in Sources */,
 				51F0BD4A1F8D08A8001B817D /* Person.swift in Sources */,
+				51503C781FB07FBD008BE61B /* User.swift in Sources */,
 				51F0BD4C1F8D0955001B817D /* Employee.swift in Sources */,
 				513DA4221F9109C9007DC03D /* Case.swift in Sources */,
 				51F0BD441F8D0747001B817D /* Constants.swift in Sources */,

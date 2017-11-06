@@ -18,8 +18,4 @@ class Team: NSObject {
         
         super.init()
     }
-    
-    func activeCases() -> [Case] {
-        return self.cases.filter({item in item.state == .Active})
-    }
 }
